@@ -1,0 +1,35 @@
+
+.content{
+    width:613px !important;
+    margin-left:0px;
+    height:168px !important;
+    border-radius:17px;
+    background-color:white
+}
+:global(.outer .ant-list-item){
+    width:613px;
+    height:168px;
+    background-color: white;
+    border-radius:17px;
+    margin-top: 14px;
+    box-shadow: 5px 5px 5px rgb(232 230 230)
+}
+:global(.outer .ant-avatar){
+    margin: -64px 22px 16px 16px;
+}
+.userName{
+    font-size: 20px;
+    margin-top: -85px;
+}
+.articleTitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -85px;
+    margin-left: 10px;
+    margin-left: 100px;
+}
+.columnTitle{
+    font-size: 17px;
+    color: rgb(76, 137, 243);
+    margin: -34px -421px 0px 75px;
+}

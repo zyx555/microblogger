@@ -1,0 +1,42 @@
+
+
+:global(.wrapper .ant-tabs-content-holder){
+    display: none;
+}
+.header{
+    width:252px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 60px 10px 10px 393px;
+    box-shadow: 5px 5px 5px C;
+}
+.articleDescriptionCreate{
+    width: 793px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 393px;
+    box-shadow: 5px 5px 5px rgb(232, 230, 230);
+}
+:global .anticon svg {
+    width: 26px;
+    height:23px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 174px;
+    margin: 10px 10px 10px 393px;
+}
+.button{
+    border-radius: 10px;
+    width: 105px;
+    height: 27px;
+    font-size: 20px;
+    line-height: 2px;
+
+}
+.buttonWrapper{
+    width: 105px;
+    height: 27px;
+    margin: 25px auto;
+}
