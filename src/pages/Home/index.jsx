@@ -204,8 +204,9 @@ class home extends Component {
           </div>
           <Layout className={styles.columns}>
             <Content >
-              <div className={'wrapper'} onClick={this.handleClick}>
+              <div className={'wrapper'} >
                 <List
+
                   size='small'
 
                   className={styles.content}
@@ -215,9 +216,9 @@ class home extends Component {
                     <List.Item key={columnList.id} className={styles.columns}>
 
                       <Button type="primary" className={styles.createArticle} onClick={this.handleCreateArticle.bind(columnList, columnList.id)}><span style={{ marginLeft: -13, color: 'black' }}>+创作</span></Button>
-                      <Avatar className={styles.columnsAvatar} shape="square" src={columnList.coverUrl}></Avatar>
+                      <Avatar className={styles.columnsAvatar} shape="square" src={columnList.coverUrl} onClick={this.handleClick}></Avatar>
                       <List.Item.Meta
-
+                        onClick={this.handleClick}
                         title={columnList.title}
                         description={
                           [

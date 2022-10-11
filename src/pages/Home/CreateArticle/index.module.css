@@ -17,6 +17,27 @@
     margin: 10px 10px 10px 393px;
     box-shadow: 5px 5px 5px rgb(232, 230, 230);
 }
+.boldArticleDescriptionCreate{
+    width: 793px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 393px;
+    box-shadow: 5px 5px 5px rgb(232, 230, 230);
+    font-weight: 700;
+}
+.italicArticleDescriptionCreate{
+    width: 793px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 393px;
+    box-shadow: 5px 5px 5px rgb(232, 230, 230);
+    font-style: italic;
+}
+.underlineArticleDescriptionCreate{
+    width: 793px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 393px;
+    box-shadow: 5px 5px 5px rgb(232, 230, 230);
+    text-decoration: underline;
+}
 :global .anticon svg {
     width: 26px;
     height:23px;
